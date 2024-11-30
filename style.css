@@ -1,0 +1,39 @@
+body{
+    display: grid; 
+    place-items: center;
+    background: url(./background.png);
+    background-size: cover;
+    margin: 0;
+    background-position: center;
+    height: 100vh;
+}
+
+div{
+    background-color: rgba(0, 0, 0, 0.8); color: black; padding: 20px;
+    border-radius: 5em;
+    margin-top: 10rem;
+}
+
+
+h1{
+    color: rgb(249, 235, 174);
+    text-align: center;        /* Centers text inside the block */
+    margin: 0 auto; 
+    text-shadow: 1em;              /* Centers the block itself horizontally */
+}
+
+p{
+    text-align: center;
+    margin: 0 auto;
+    color: rgb(212, 235, 255);
+}
+
+button{
+    display: block;
+    margin: 0 auto ;
+    background-color: rgb(249, 235, 174);
+    color: black;
+    font: bolder;
+    font-weight: 700;
+
+}
